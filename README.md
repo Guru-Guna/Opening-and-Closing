@@ -26,9 +26,9 @@ Use Closing Operation.
 ### Step 6:
 Print the output and end the program.
 ## PROGRAM:
-Developed by : Shrruthilaya G
+Developed by : Gunaseelan G
 
-Register number : 212221230097
+Register number : 212221230031
 ### Import the necessary packages
 ```python
 import cv2
@@ -37,9 +37,9 @@ import matplotlib.pyplot as plt
 ```
 ### Create the Text using cv2.putText
 ```python
-text_image = np.zeros((100,1000),dtype = 'uint8')
+text_image = np.zeros((100,190),dtype = 'uint8')
 font = cv2.FONT_HERSHEY_SIMPLEX = 3
-cv2.putText(text_image,"SHRRUTHILAYA GANGADARAN",(5,70),font,2,(255),5,cv2.LINE_AA)
+cv2.putText(text_image,"Guna",(5,70),font,2,(255),5,cv2.LINE_AA)
 plt.title("Original Image")
 plt.imshow(text_image,'magma')
 plt.axis('off')
@@ -67,11 +67,14 @@ plt.axis('off')
 ## OUTPUT:
 
 ### Input Image
-![](output1.png)
+![out1](https://github.com/Guru-Guna/Opening-and-Closing/assets/93427255/e5a91cc0-3082-4ed0-8901-98b3bf779327)
+
 
 ### Result of Opening
-![](output2.png)
+![out2](https://github.com/Guru-Guna/Opening-and-Closing/assets/93427255/d44748c0-2042-41ad-b889-df1ea6d79707)
+
 ### Result of Closing
-![](output3.png)
+![out3](https://github.com/Guru-Guna/Opening-and-Closing/assets/93427255/9fe75b0e-7773-48c1-85c2-82c236a0bfc6)
+
 ## RESULT:
 Thus, the Opening and Closing operation is used in the image using python and OpenCV.
